@@ -3,7 +3,7 @@ set recolor true
 set selection-clipboard clipboard
 
 # Font size
-set font 'monospace normal 14'
+set font 'monospace normal 16'
 
 # One page per row by default
 set pages-per-row 1
@@ -15,6 +15,8 @@ unmap f
 map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
 map r reload
+map d scroll full-down
+map u scroll full-up
 
 # stop at page boundries
 set scroll-page-aware "true"
