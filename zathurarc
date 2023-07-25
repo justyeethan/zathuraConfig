@@ -1,0 +1,30 @@
+# General things
+set recolor true
+set selection-clipboard clipboard
+
+# Font size
+set font 'monospace normal 14'
+
+# One page per row by default
+set pages-per-row 1
+
+# Keybindings
+map J zoom out
+map K zoom in
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+map r reload
+
+# stop at page boundries
+set scroll-page-aware "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+# zoom settings
+set zoom-min 5
+set guioptions ""
+
+set statusbar-bg                "#073642" # base02
+set statusbar-fg                "#93a1a1" # base1
+
