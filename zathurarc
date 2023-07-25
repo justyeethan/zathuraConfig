@@ -1,6 +1,6 @@
 # General things
-set recolor true
-set selection-clipboard clipboard
+set recolor true # Dark mode integration for lighthouse
+set selection-clipboard clipboard # Set clipboard copy
 
 # Font size
 set font 'monospace normal 16'
@@ -15,8 +15,13 @@ unmap f
 map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
 map r reload
-map d scroll full-down
+
+map b toggle_page_mode # Toggle dual page mode
+
+unmap u # unmaps u and d for default full-up/down scroll
+unmap d
 map u scroll full-up
+map d scroll full-down
 
 # stop at page boundries
 set scroll-page-aware "true"
