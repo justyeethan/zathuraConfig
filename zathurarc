@@ -35,3 +35,4 @@ set guioptions ""
 set statusbar-bg                "#073642" # base02
 set statusbar-fg                "#93a1a1" # base1
 
+set smooth-scroll "true"
